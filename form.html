@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form MARS</title>
+</head>
+<body style="background-color:#F5F5F5;">
+    <header>
+    <nav>
+        <h1>Анкета</h1>
+        <h4><i>Дайте відповіді на кілька питань щодо <a href="index.html">колонізації космосу:</a></i></h4>
+    </nav>
+    </header>
+    <form method="POST" action="https://formspree.io/olyastef@gmail.com">
+        <label>Ім'я
+            <input type="text" placeholder="Name" name="mame">
+        </label>
+    <br>
+        <label for="email">Email
+           <input type="email"  placeholder="Email"
+               id="email" name="email">
+        </label>
+    <br>
+        <label>Стать</label>
+        <label>
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <label>
+             <input type="radio" name="gender" value="female">Female
+        </label>
+        <label>
+              <input type="radio" name="gender" value="other">Other
+        </label>
+    <br>
+        <label>Країна
+            <input type="text" placeholder="Country" name="country">
+        </label>
+    <br>
+         <label>Чи потрібно колонізувати Марс?</label>
+        <label>
+            <input type="radio" name="colonization" value="yes">Yes
+        </label>
+        <label>
+             <input type="radio" name="colonization" value="no">No
+        </label>
+        <label>
+              <input type="radio" name="colonization" value="other">Other
+        </label>
+    <br>
+         <label>Номер телефону
+            <input type="tel" placeholder="11 222 3333333" name="phone" maxlength="12">
+        </label>
+    <br>
+        <input type="submit">
+    </form>
+    <h4>
+         <a href="enter.html" target="_self" title="Віхід для зареєстрованих користувачів" style="color:gray; text-decoration: none"> Увійти на сайт</a>
+    </h4>
+</body>
+</html>
+
